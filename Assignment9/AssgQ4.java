@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 class Shape {
     double getPerimeter() {
         return 0;
@@ -9,7 +8,6 @@ class Shape {
         return 0;
     }
 }
-
 class Circle extends Shape {
     double r;
 
@@ -24,8 +22,6 @@ double getArea() {
     return Math.PI * r * r;
 }
 }
-
-
 public class AssgQ4 {
     public static void main(String[] scp) {
         Scanner sc = new Scanner(System.in);
